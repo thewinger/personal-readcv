@@ -18,7 +18,7 @@ const Profile: React.FC<ProfileProps> = ({
         </div>
         <div className={styles.profileInfo}>
           <h1>{cv.general.displayName}</h1>
-          <div className={styles.byline}>{cv.general.byline}</div>
+          <div className={styles.byline}>{`${cv.general.byline} (UTC+${new Date().getTimezoneOffset() / -60})`}</div>
           {cv.general.website ?
             <a className={styles.website}>{cv.general.website}</a>
           : null}
