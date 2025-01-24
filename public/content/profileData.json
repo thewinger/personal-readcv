@@ -1,0 +1,466 @@
+{
+  "general": {
+    "profilePhoto": "/content/media/profilePhoto.jpg",
+    "username": "alexcamlo",
+    "displayName": "Alejandro Camara",
+    "profession": "Product Designer",
+    "location": "Alicante",
+    "pronouns": null,
+    "byline": "Product Designer in Alicante",
+    "website": "https://alejandrocamara.info",
+    "websiteURL": "https://alejandrocamara.info",
+    "about": "As a product designer, I’m dedicated to simplifying people’s daily workflows. While I primarily work in design, I also enjoy exploring development through side projects. \n\nI find that my expertise in both areas allows me to bridge the gap between design and development, facilitating better collaboration and understanding between the two fields. \n\nAnd when I’m not working, you might find me on the slopes skiing (especially if there’s a company ski retreat!) or in the middle of the desert overlanding.",
+    "status": {
+      "text": null,
+      "emoji": null,
+      "timestamp": null
+    },
+    "sectionOrder": [
+      "Contact",
+      "Work Experience",
+      "Projects",
+      "Side Projects",
+      "Exhibitions",
+      "Speaking",
+      "Writing",
+      "Awards",
+      "Features",
+      "Volunteering",
+      "Education",
+      "Certifications",
+      "Teams"
+    ]
+  },
+  "projects": [],
+  "sideProjects": [
+    {
+      "id": "E0InHozMgndu6c8bUfVG",
+      "year": "2023",
+      "heading": "InmoGolf Bonalba at InmoGolf Bonalba",
+      "url": "https://inmogolfbonalba.com",
+      "collaborators": [],
+      "description": "Designed and developed a real estate website using Next.js 13 with their new appDir, Tailwind for the front-end and Sanity.io as a headless CMS.",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1673,
+          "height": 4101,
+          "url": "/content/media/InmoGolf-Bonalba-at-InmoGolf-Bonalba-1.png"
+        },
+        {
+          "type": "image",
+          "width": 1673,
+          "height": 1568,
+          "url": "/content/media/InmoGolf-Bonalba-at-InmoGolf-Bonalba-2.png"
+        },
+        {
+          "type": "image",
+          "width": 1672,
+          "height": 2026,
+          "url": "/content/media/InmoGolf-Bonalba-at-InmoGolf-Bonalba-3.png"
+        }
+      ],
+      "type": "sideProject",
+      "title": "InmoGolf Bonalba",
+      "company": "InmoGolf Bonalba"
+    },
+    {
+      "id": "CyvHalDSGiCWtYMUjdrQ",
+      "year": "2022",
+      "heading": "Interviewed With",
+      "url": "https://interviewedwith.com",
+      "collaborators": [],
+      "description": "Collaborated with a colleague to design and develop a responsive website using React, enabling people to share their I first-hand experiences of job interviews.",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1265,
+          "height": 3395,
+          "url": "/content/media/Interviewed-With-1.png"
+        },
+        {
+          "type": "image",
+          "width": 1265,
+          "height": 1870,
+          "url": "/content/media/Interviewed-With-2.png"
+        },
+        {
+          "type": "image",
+          "width": 1265,
+          "height": 1234,
+          "url": "/content/media/Interviewed-With-3.png"
+        },
+        {
+          "type": "image",
+          "width": 1265,
+          "height": 1695,
+          "url": "/content/media/Interviewed-With-4.png"
+        }
+      ],
+      "type": "sideProject",
+      "title": "Interviewed With",
+      "company": null
+    }
+  ],
+  "exhibitions": [],
+  "talks": [],
+  "writing": [],
+  "awards": [],
+  "features": [],
+  "workExperience": [
+    {
+      "id": "CEiRdeQzD7xHhRWWz5So",
+      "year": "2018 — Now",
+      "heading": "Product Designer at European Union Intellectual Property Office",
+      "url": null,
+      "collaborators": [],
+      "description": "→ Researched with users across the 27 EU member states using interviews, surveys, card sorting and user testing to gather insights of their workflows.\n→ Improved usability of existing tools by conducting heuristic evaluations and user testing.\n→ Designed two new tools to help users improve their time-to-register new trademarks, working with internal stakeholders, customers and business analyst. Created rapid prototypes and conducted user tests in an Agile environment.\n→ Communicated the advantages of a UI library to the client.\n→ Worked closely with engineers and other designers to document and create a UI library to simplify the translation of complex systems into tangible products.",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Product Designer",
+      "company": "European Union Intellectual Property Office",
+      "location": null
+    },
+    {
+      "id": "tQ7P3uM7Pf1PGS9eE9Zg",
+      "year": "2015 — 2018",
+      "heading": "Product Designer at SIMPOSIUM Events",
+      "url": null,
+      "collaborators": [],
+      "description": "→ Researched market and defined new features.\n→ Designed the tool to automate the creation and communication of diplomas to attendees.\n→ Gave customer support and gathered and prioritise user feedback.\n→ Conducted in-house workshops to aimed at maximising the utilisation of the tool.\n→ Designed the mobile app to search for events.\n→ Re-designed the landing page that increased contacts in a 30%.",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Product Designer",
+      "company": "SIMPOSIUM Events",
+      "location": null
+    },
+    {
+      "id": "h3YvcMcnVS2B6l2ML0UP",
+      "year": "2017 — 2017",
+      "heading": "Product Designer at Travelest App (discontinued)",
+      "url": null,
+      "collaborators": [],
+      "description": "→ Created prototypes and conducted user tests.\n→ Documented design thinking, findings and proposals to communicate the design decisions to the client.\n→ Created user requirements, wireframes, high-fidelity designs and design specifications for the development team.",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Product Designer",
+      "company": "Travelest App (discontinued)",
+      "location": null
+    },
+    {
+      "id": "HSXi3pZtbMx0Jb7xehXe",
+      "year": "2014 — 2017",
+      "heading": "Designer and Developer at Universidad Miguel Hernández de Elche",
+      "url": null,
+      "collaborators": [],
+      "description": "→ Created prototypes and conducted user tests to validate design proposals.\n→ Developed in HTML, CSS, JS and ASP.net the 40 landing pages and their contact forms.\n→ Led the migration from HTML, CSS, JS to Wordpress, minimising disruption of daily operations and documenting how to use the new platform for interns.",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Designer and Developer",
+      "company": "Universidad Miguel Hernández de Elche",
+      "location": null
+    }
+  ],
+  "volunteering": [],
+  "education": [
+    {
+      "id": "XHmkQAVqWtNX5DYmUqsW",
+      "year": "2022 — 2022",
+      "heading": "Design Systems at Tramontana Institute",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "education",
+      "degree": "Design Systems",
+      "school": "Tramontana Institute",
+      "location": null
+    },
+    {
+      "id": "dVnkMUTCCmBk9uiVUmai",
+      "year": "2022 — 2022",
+      "heading": "Design and Data Visualizacion at Tramontana Institute",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "education",
+      "degree": "Design and Data Visualizacion",
+      "school": "Tramontana Institute",
+      "location": null
+    },
+    {
+      "id": "mnu5qpMRdnWns5YFAybo",
+      "year": "2005 — 2017",
+      "heading": "Telecommunication Engineer at Universidad Miguel Hernández de Elche",
+      "url": "https://umh.es",
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "education",
+      "degree": "Telecommunication Engineer",
+      "school": "Universidad Miguel Hernández de Elche",
+      "location": "Elche"
+    },
+    {
+      "id": "BnmlOJ9mTpzXWnWQuXqy",
+      "year": "2015 — 2015",
+      "heading": "V Interaction Design Professional Program at Tramontana Institute",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "education",
+      "degree": "V Interaction Design Professional Program",
+      "school": "Tramontana Institute",
+      "location": "Madrid"
+    },
+    {
+      "id": "iV3AuZkS8pPUS2IcLiYa",
+      "year": "2012 — 2012",
+      "heading": "iOS App Development at Universidad Miguel Hernández de Elche",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "education",
+      "degree": "iOS App Development",
+      "school": "Universidad Miguel Hernández de Elche",
+      "location": null
+    }
+  ],
+  "certifications": [],
+  "contact": [
+    {
+      "id": "avjmFN7G2bgiCEzKgQTO",
+      "platform": "Email",
+      "handle": "hi@alejandrocamara.info",
+      "url": "mailto:hi@alejandrocamara.info"
+    },
+    {
+      "id": "7q5VOID8fgTRUyfEr3ig",
+      "platform": "LinkedIn",
+      "handle": "alejandrocamaralopez",
+      "url": "https://linkedin.com/in/alejandrocamaralopez"
+    }
+  ],
+  "allCollections": [
+    {
+      "name": "Contact",
+      "items": [
+        {
+          "id": "avjmFN7G2bgiCEzKgQTO",
+          "platform": "Email",
+          "handle": "hi@alejandrocamara.info",
+          "url": "mailto:hi@alejandrocamara.info"
+        },
+        {
+          "id": "7q5VOID8fgTRUyfEr3ig",
+          "platform": "LinkedIn",
+          "handle": "alejandrocamaralopez",
+          "url": "https://linkedin.com/in/alejandrocamaralopez"
+        }
+      ]
+    },
+    {
+      "name": "Work Experience",
+      "items": [
+        {
+          "id": "CEiRdeQzD7xHhRWWz5So",
+          "year": "2018 — Now",
+          "heading": "Product Designer at European Union Intellectual Property Office",
+          "url": null,
+          "collaborators": [],
+          "description": "→ Researched with users across the 27 EU member states using interviews, surveys, card sorting and user testing to gather insights of their workflows.\n→ Improved usability of existing tools by conducting heuristic evaluations and user testing.\n→ Designed two new tools to help users improve their time-to-register new trademarks, working with internal stakeholders, customers and business analyst. Created rapid prototypes and conducted user tests in an Agile environment.\n→ Communicated the advantages of a UI library to the client.\n→ Worked closely with engineers and other designers to document and create a UI library to simplify the translation of complex systems into tangible products.",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Product Designer",
+          "company": "European Union Intellectual Property Office",
+          "location": null
+        },
+        {
+          "id": "tQ7P3uM7Pf1PGS9eE9Zg",
+          "year": "2015 — 2018",
+          "heading": "Product Designer at SIMPOSIUM Events",
+          "url": null,
+          "collaborators": [],
+          "description": "→ Researched market and defined new features.\n→ Designed the tool to automate the creation and communication of diplomas to attendees.\n→ Gave customer support and gathered and prioritise user feedback.\n→ Conducted in-house workshops to aimed at maximising the utilisation of the tool.\n→ Designed the mobile app to search for events.\n→ Re-designed the landing page that increased contacts in a 30%.",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Product Designer",
+          "company": "SIMPOSIUM Events",
+          "location": null
+        },
+        {
+          "id": "h3YvcMcnVS2B6l2ML0UP",
+          "year": "2017 — 2017",
+          "heading": "Product Designer at Travelest App (discontinued)",
+          "url": null,
+          "collaborators": [],
+          "description": "→ Created prototypes and conducted user tests.\n→ Documented design thinking, findings and proposals to communicate the design decisions to the client.\n→ Created user requirements, wireframes, high-fidelity designs and design specifications for the development team.",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Product Designer",
+          "company": "Travelest App (discontinued)",
+          "location": null
+        },
+        {
+          "id": "HSXi3pZtbMx0Jb7xehXe",
+          "year": "2014 — 2017",
+          "heading": "Designer and Developer at Universidad Miguel Hernández de Elche",
+          "url": null,
+          "collaborators": [],
+          "description": "→ Created prototypes and conducted user tests to validate design proposals.\n→ Developed in HTML, CSS, JS and ASP.net the 40 landing pages and their contact forms.\n→ Led the migration from HTML, CSS, JS to Wordpress, minimising disruption of daily operations and documenting how to use the new platform for interns.",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Designer and Developer",
+          "company": "Universidad Miguel Hernández de Elche",
+          "location": null
+        }
+      ]
+    },
+    {
+      "name": "Side Projects",
+      "items": [
+        {
+          "id": "E0InHozMgndu6c8bUfVG",
+          "year": "2023",
+          "heading": "InmoGolf Bonalba at InmoGolf Bonalba",
+          "url": "https://inmogolfbonalba.com",
+          "collaborators": [],
+          "description": "Designed and developed a real estate website using Next.js 13 with their new appDir, Tailwind for the front-end and Sanity.io as a headless CMS.",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1673,
+              "height": 4101,
+              "url": "/content/media/InmoGolf-Bonalba-at-InmoGolf-Bonalba-1.png"
+            },
+            {
+              "type": "image",
+              "width": 1673,
+              "height": 1568,
+              "url": "/content/media/InmoGolf-Bonalba-at-InmoGolf-Bonalba-2.png"
+            },
+            {
+              "type": "image",
+              "width": 1672,
+              "height": 2026,
+              "url": "/content/media/InmoGolf-Bonalba-at-InmoGolf-Bonalba-3.png"
+            }
+          ],
+          "type": "sideProject",
+          "title": "InmoGolf Bonalba",
+          "company": "InmoGolf Bonalba"
+        },
+        {
+          "id": "CyvHalDSGiCWtYMUjdrQ",
+          "year": "2022",
+          "heading": "Interviewed With",
+          "url": "https://interviewedwith.com",
+          "collaborators": [],
+          "description": "Collaborated with a colleague to design and develop a responsive website using React, enabling people to share their I first-hand experiences of job interviews.",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1265,
+              "height": 3395,
+              "url": "/content/media/Interviewed-With-1.png"
+            },
+            {
+              "type": "image",
+              "width": 1265,
+              "height": 1870,
+              "url": "/content/media/Interviewed-With-2.png"
+            },
+            {
+              "type": "image",
+              "width": 1265,
+              "height": 1234,
+              "url": "/content/media/Interviewed-With-3.png"
+            },
+            {
+              "type": "image",
+              "width": 1265,
+              "height": 1695,
+              "url": "/content/media/Interviewed-With-4.png"
+            }
+          ],
+          "type": "sideProject",
+          "title": "Interviewed With",
+          "company": null
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "items": [
+        {
+          "id": "XHmkQAVqWtNX5DYmUqsW",
+          "year": "2022 — 2022",
+          "heading": "Design Systems at Tramontana Institute",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "Design Systems",
+          "school": "Tramontana Institute",
+          "location": null
+        },
+        {
+          "id": "dVnkMUTCCmBk9uiVUmai",
+          "year": "2022 — 2022",
+          "heading": "Design and Data Visualizacion at Tramontana Institute",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "Design and Data Visualizacion",
+          "school": "Tramontana Institute",
+          "location": null
+        },
+        {
+          "id": "mnu5qpMRdnWns5YFAybo",
+          "year": "2005 — 2017",
+          "heading": "Telecommunication Engineer at Universidad Miguel Hernández de Elche",
+          "url": "https://umh.es",
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "Telecommunication Engineer",
+          "school": "Universidad Miguel Hernández de Elche",
+          "location": "Elche"
+        },
+        {
+          "id": "BnmlOJ9mTpzXWnWQuXqy",
+          "year": "2015 — 2015",
+          "heading": "V Interaction Design Professional Program at Tramontana Institute",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "V Interaction Design Professional Program",
+          "school": "Tramontana Institute",
+          "location": "Madrid"
+        },
+        {
+          "id": "iV3AuZkS8pPUS2IcLiYa",
+          "year": "2012 — 2012",
+          "heading": "iOS App Development at Universidad Miguel Hernández de Elche",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "iOS App Development",
+          "school": "Universidad Miguel Hernández de Elche",
+          "location": null
+        }
+      ]
+    }
+  ]
+}
