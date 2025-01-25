@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./app/Profile.module.css":
+/*!********************************!*\
+  !*** ./app/Profile.module.css ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"profile\":\"Profile_profile__UL_5P\",\"profileHeader\":\"Profile_profileHeader__G7z7R\",\"byline\":\"Profile_byline__s43E5\",\"profilePhoto\":\"Profile_profilePhoto___NVff\",\"profileSection\":\"Profile_profileSection___hycX\",\"experiences\":\"Profile_experiences__Z2lAW\",\"contacts\":\"Profile_contacts__TQmml\",\"experience\":\"Profile_experience__8pQJc\",\"description\":\"Profile_description__OMT9q\",\"year\":\"Profile_year__KzJ4a\",\"title\":\"Profile_title__DhufJ\",\"linkArrow\":\"Profile_linkArrow__Kwzq5\",\"location\":\"Profile_location__j4kBh\",\"about\":\"Profile_about__YfjU6\"};\n    if(true) {\n      // 1737791502438\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"894f7c62fea5\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2FwcC9Qcm9maWxlLm1vZHVsZS5jc3MiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSxrQkFBa0I7QUFDbEIsT0FBTyxJQUFVO0FBQ2pCO0FBQ0Esc0JBQXNCLG1CQUFPLENBQUMsd01BQWlILGNBQWMsc0RBQXNEO0FBQ25OLE1BQU0sVUFBVTtBQUNoQjtBQUNBO0FBQ0E7QUFDQSx5QkFBeUIiLCJzb3VyY2VzIjpbIi9Vc2Vycy93aW4vRGV2ZWxvcGVyL3JlYWRjdi9hcHAvUHJvZmlsZS5tb2R1bGUuY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxubW9kdWxlLmV4cG9ydHMgPSB7XCJwcm9maWxlXCI6XCJQcm9maWxlX3Byb2ZpbGVfX1VMXzVQXCIsXCJwcm9maWxlSGVhZGVyXCI6XCJQcm9maWxlX3Byb2ZpbGVIZWFkZXJfX0c3ejdSXCIsXCJieWxpbmVcIjpcIlByb2ZpbGVfYnlsaW5lX19zNDNFNVwiLFwicHJvZmlsZVBob3RvXCI6XCJQcm9maWxlX3Byb2ZpbGVQaG90b19fX05WZmZcIixcInByb2ZpbGVTZWN0aW9uXCI6XCJQcm9maWxlX3Byb2ZpbGVTZWN0aW9uX19faHljWFwiLFwiZXhwZXJpZW5jZXNcIjpcIlByb2ZpbGVfZXhwZXJpZW5jZXNfX1oybEFXXCIsXCJjb250YWN0c1wiOlwiUHJvZmlsZV9jb250YWN0c19fVFFtbWxcIixcImV4cGVyaWVuY2VcIjpcIlByb2ZpbGVfZXhwZXJpZW5jZV9fOHBRSmNcIixcImRlc2NyaXB0aW9uXCI6XCJQcm9maWxlX2Rlc2NyaXB0aW9uX19PTVQ5cVwiLFwieWVhclwiOlwiUHJvZmlsZV95ZWFyX19Leko0YVwiLFwidGl0bGVcIjpcIlByb2ZpbGVfdGl0bGVfX0RodWZKXCIsXCJsaW5rQXJyb3dcIjpcIlByb2ZpbGVfbGlua0Fycm93X19Ld3pxNVwiLFwibG9jYXRpb25cIjpcIlByb2ZpbGVfbG9jYXRpb25fX2o0a0JoXCIsXCJhYm91dFwiOlwiUHJvZmlsZV9hYm91dF9fWWZqVTZcIn07XG4gICAgaWYobW9kdWxlLmhvdCkge1xuICAgICAgLy8gMTczNzc5MTUwMjQzOFxuICAgICAgdmFyIGNzc1JlbG9hZCA9IHJlcXVpcmUoXCIvVXNlcnMvd2luL0RldmVsb3Blci9yZWFkY3Yvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jb21waWxlZC9taW5pLWNzcy1leHRyYWN0LXBsdWdpbi9obXIvaG90TW9kdWxlUmVwbGFjZW1lbnQuanNcIikobW9kdWxlLmlkLCB7XCJwdWJsaWNQYXRoXCI6XCIvX25leHQvXCIsXCJlc01vZHVsZVwiOmZhbHNlLFwibG9jYWxzXCI6dHJ1ZX0pO1xuICAgICAgbW9kdWxlLmhvdC5kaXNwb3NlKGNzc1JlbG9hZCk7XG4gICAgICBcbiAgICB9XG4gIFxubW9kdWxlLmV4cG9ydHMuX19jaGVja3N1bSA9IFwiODk0ZjdjNjJmZWE1XCJcbiJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./app/Profile.module.css\n"));
+
+/***/ })
+
+});

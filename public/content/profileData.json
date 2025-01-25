@@ -9,7 +9,7 @@
     "byline": "Product Designer in Alicante",
     "website": "https://alejandrocamara.info",
     "websiteURL": "https://alejandrocamara.info",
-    "about": "As a product designer, I’m dedicated to simplifying people’s daily workflows. While I primarily work in design, I also enjoy exploring development through side projects. \n\nI find that my expertise in both areas allows me to bridge the gap between design and development, facilitating better collaboration and understanding between the two fields. \n\nAnd when I’m not working, you might find me on the slopes skiing (especially if there’s a company ski retreat!) or in the middle of the desert overlanding.",
+    "about": "As a product designer, I focus on simplifying daily workflows for users. Although my main role is in design, I also enjoy exploring development through side projects.\n\nMy expertise in both design and development helps me bridge the gap between these fields, promoting better collaboration and understanding.\n\nWhen I'm not working, you might find me skiing on the slopes —especially during company ski retreats— or overlanding in the desert.",
     "status": {
       "text": null,
       "emoji": null,
@@ -114,7 +114,8 @@
       "heading": "Product Designer at European Union Intellectual Property Office",
       "url": null,
       "collaborators": [],
-      "description": "→ Researched with users across the 27 EU member states using interviews, surveys, card sorting and user testing to gather insights of their workflows.\n→ Improved usability of existing tools by conducting heuristic evaluations and user testing.\n→ Designed two new tools to help users improve their time-to-register new trademarks, working with internal stakeholders, customers and business analyst. Created rapid prototypes and conducted user tests in an Agile environment.\n→ Communicated the advantages of a UI library to the client.\n→ Worked closely with engineers and other designers to document and create a UI library to simplify the translation of complex systems into tangible products.",
+      "about": "As a product designer, I’m dedicated to simplifying people’s daily workflows. While I primarily work in design, I also enjoy exploring development through side projects.\n\nI find that my expertise in both areas allows me to bridge the gap between design and development, facilitating better collaboration and understanding between the two fields. \n\nAnd when I’m not working, you might find me on the slopes skiing (especially if there’s a company ski retreat!) or in the middle of the desert overlanding.",
+      "description": "→ Researched with users across the 27 EU member states using interviews, surveys, card sorting and user testing to gather insights of their workflows.\n\n → Improved usability of existing tools by conducting heuristic evaluations and user testing.\n→ Designed two new tools to help users improve their time-to-register new trademarks, working with internal stakeholders, customers and business analyst. Created rapid prototypes and conducted user tests in an Agile environment.\n→ Communicated the advantages of a UI library to the client.\n→ Worked closely with engineers and other designers to document and create a UI library to simplify the translation of complex systems into tangible products.",
       "attachments": [],
       "type": "workExperience",
       "title": "Product Designer",

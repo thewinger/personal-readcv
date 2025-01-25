@@ -19,9 +19,9 @@ const Profile: React.FC<ProfileProps> = ({
         <div className={styles.profileInfo}>
           <h1>{cv.general.displayName}</h1>
           <div className={styles.byline}>{`${cv.general.byline} (UTC+${new Date().getTimezoneOffset() / -60})`}</div>
-          {cv.general.website ?
-            <a className={styles.website}>{cv.general.website}</a>
-          : null}
+          {/* {cv.general.website ? */}
+          {/*   <a className={styles.website}>{cv.general.website}</a> */}
+          {/* : null} */}
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const Profile: React.FC<ProfileProps> = ({
 
       {cv.allCollections.map((collection: any, index: number) => {
         return (
-          <section className={styles.profileSection}>
+          <section key={index} className={styles.profileSection}>
             <h3>{collection.name}</h3>
             <div className={collection.name === "Contact" ? styles.contacts : styles.experiences}>
               {collection.items.map((experience: any, index: number) => {

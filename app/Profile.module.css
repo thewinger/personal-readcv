@@ -1,8 +1,8 @@
 .profile {
   width: 100%;
-  max-width: 540px;
+  max-width: 620px;
   margin: 0 auto;
-  padding: clamp(24px, calc((100vw - 540px) / 2), 72px) 0;
+  padding: clamp(24px, calc((100vw - 620px) / 2), 72px) 0;
 }
 
 .profileHeader {
@@ -46,7 +46,7 @@
 
 .profileSection h3 {
   font-size: var(--font-size);
-  font-weight: normal;
+  font-weight: 500;
   margin-bottom: calc((var(--font-size) * var(--line-height)) / 2);
 }
 
@@ -60,7 +60,7 @@
 .contacts {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 0.5rem;
   margin-top: 24px;
 }
 
@@ -75,6 +75,7 @@
   display: flex;
   row-gap: calc((var(--font-size) * var(--line-height)) / 2);
   flex-direction: column;
+  white-space: pre-line;
 }
 
 .description p a {
@@ -99,6 +100,10 @@
   white-space: nowrap;
 }
 
+.title {
+  font-weight: 500;
+}
+
 .title a:hover {
   border-bottom: 1px solid;
 }
@@ -120,7 +125,7 @@
 }
 
 @media (max-width: 480px) {
-  
+
   .about .description,
   .experiences,
   .contacts {
