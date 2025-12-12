@@ -34,12 +34,12 @@ const Profile: React.FC<ProfileProps> = ({
         </section>
       : null}
 
-      {cv.allCollections.map((collection: any, index: number) => {
+      {cv.allCollections.map((collection: any) => {
         return (
-          <section key={index} className={styles.profileSection}>
+          <section key={collection.name} className={styles.profileSection}>
             <h3>{collection.name}</h3>
             <div className={collection.name === "Contact" ? styles.contacts : styles.experiences}>
-              {collection.items.map((experience: any, index: number) => {
+              {collection.items.map((experience: any) => {
 
                 if (collection.name === "Contact") {
                   return <ContactItem key={experience.url} experience={experience}/>
@@ -64,14 +64,14 @@ const ProfileItem: React.FC<ProfileItemProps> = ({
   experience
 }) => {
 
-  let title;
-  if (experience.url) {
-    title = <>
-      <a href={experience.url} target="_blank">{experience.heading}</a><span className={styles.linkArrow}>&#xfeff;<Arrow12 fill="var(--grey1)"/></span>
+  const title = experience.url ? (
+    <>
+      <a href={experience.url} target="_blank" rel="noopener noreferrer">{experience.heading}</a><span className={styles.linkArrow}>&#xfeff;<Arrow12 fill="var(--grey1)"/></span>
     </>
-  } else {
-    title = experience.heading
-  }
+  ) : (
+    experience.heading
+  );
+
   return (
     <div className={styles.experience}>
       <div className={styles.year}>
@@ -110,7 +110,7 @@ const ContactItem: React.FC<ContactItemProps> = ({
       </div>
       <div className={styles.experienceContent}>
         <div className={styles.title}>
-          <a href={experience.url} target="_blank">{experience.handle}</a><span className={styles.linkArrow}>&#xfeff;<Arrow12/></span>
+          <a href={experience.url} target="_blank" rel="noopener noreferrer">{experience.handle}</a><span className={styles.linkArrow}>&#xfeff;<Arrow12/></span>
         </div>
       </div>
     </div>

@@ -2,14 +2,14 @@
   "general": {
     "profilePhoto": "/content/media/profilePhoto.jpg",
     "username": "alexcamlo",
-    "displayName": "Alejandro Cámara López",
+    "displayName": "Alejandro Camara",
     "profession": "Product Designer",
     "location": "Alicante",
     "pronouns": null,
     "byline": "Product Designer in Alicante",
     "website": "https://alejandrocamara.info",
     "websiteURL": "https://alejandrocamara.info",
-    "about": "I am a product designer committed to simplifying daily workflows. Although my primary focus is design, I enjoy exploring development through side projects and my home server.\n\nThis combination of skills allows me to bridge the gap between design and development, improving collaboration and understanding between both fields.\n\nCurrently, I integrate artificial intelligence to evolve the design process, moving directly from ideation to functional prototypes in code, eliminating intermediate static deliverables and accelerating product validation.\n\nOutside of work, I am passionate about skiing and practicing overlanding in the desert.",
+    "about": "As a product designer, I simplify daily workflows for users. While my primary focus is on design, I also enjoy exploring development through side projects.\n\nMy expertise in both design and development allows me to bridge the gap between these fields, fostering better collaboration and understanding.\n\nOutside of work, you might find me skiing on the slopes or overlanding in the desert.",
     "status": {
       "text": null,
       "emoji": null,
@@ -39,7 +39,7 @@
       "heading": "InmoGolf Bonalba at InmoGolf Bonalba",
       "url": "https://inmogolfbonalba.com",
       "collaborators": [],
-      "description": "Full Stack design and development of a high-performance real estate platform based on Next.js and TailwindCSS. [cite_start]Implemented accessible component architecture (RadixUI) and integrated Sanity.io (Headless CMS) for scalable content management. [cite: 39, 40, 41]",
+      "description": "Designed and developed a real estate website using Next.js 13 with their new appDir, Tailwind for the front-end and Sanity.io as a headless CMS.",
       "attachments": [
         {
           "type": "image",
@@ -70,7 +70,7 @@
       "heading": "Interviewed With",
       "url": "https://interviewedwith.com",
       "collaborators": [],
-      "description": "End-to-end design and development of a responsive web platform based on React, facilitating the creation of a community for the exchange of job interview experiences. [cite: 36, 37]",
+      "description": "Collaborated with a colleague to design and develop a responsive website using React, enabling people to share their I first-hand experiences of job interviews.",
       "attachments": [
         {
           "type": "image",
@@ -114,7 +114,7 @@
       "heading": "Product Designer at European Union Intellectual Property Office",
       "url": null,
       "collaborators": [],
-      "description": "→ Executed user research across the 27 EU member states (interviews, surveys, card sorting) to optimize workflows based on qualitative data. [cite: 10][cite_start]\n→ Optimized usability in legacy tools through heuristic evaluations and iterative testing, increasing user efficiency. [cite: 11][cite_start]\n→ Comprehensive redesign of the leading intellectual property documentation management tool, modernizing the information architecture and UI. [cite: 12][cite_start]\n→ Designed and launched two new critical tools to reduce trademark registration time. [cite: 13][cite_start]\n→ Led prototyping and testing in an Agile environment with international stakeholders. [cite: 14][cite_start]\n→ Created and implemented a Design System in collaboration with engineering to scale development. [cite: 15][cite_start]\n→ Evangelized the benefits of the component library to the client to ensure product consistency. [cite: 16][cite_start]\n→ Integrated AI workflows (Figma Make, v0, Claude Code) to generate high-fidelity prototypes and bring visual proposals closer to final code, agilizing technical validation. [cite: 17]",
+      "description": "→ Conducted user research across the 27 EU member states through interviews, surveys, card sorting, and user testing to gather insights on workflows.\n→ Enhanced the usability of existing tools by performing heuristic evaluations and user testing.\n→ Designed two new tools to streamline the trademark registration process, collaborating with internal stakeholders, customers, and business analysts. Created rapid prototypes and conducted user tests in an Agile environment.\n→ Communicated the benefits of a UI library to clients.\n→ Collaborated closely with engineers and other designers to document and create a UI library, simplifying the translation of complex systems into tangible products.",
       "attachments": [],
       "type": "workExperience",
       "title": "Product Designer",
@@ -124,14 +124,27 @@
     {
       "id": "tQ7P3uM7Pf1PGS9eE9Zg",
       "year": "2015 — 2018",
-      "heading": "Product Designer at SYMPOSIUM Events",
+      "heading": "Product Designer at SIMPOSIUM Events",
       "url": null,
       "collaborators": [],
-      "description": "→ Defined product roadmap based on market research to identify opportunities and prioritize the development of new key features. [cite: 21][cite_start]\n→ Designed an automation system for generating and sending diplomas, optimizing communication flows with attendees and reducing manual workload. [cite: 22][cite_start]\n→ Managed the user feedback loop and technical support to validate needs and prioritize iterative product improvements. [cite: 23][cite_start]\n→ Facilitated training workshops with clients to ensure successful implementation (Onboarding) and maximize tool adoption rates. [cite: 24][cite_start]\n→ Designed a mobile experience (App) centered on usability to facilitate intuitive event discovery and search. [cite: 25][cite_start]\n→ Strategic redesign of the Landing Page oriented towards conversion (CRO), achieving a 30% increase in lead/contact acquisition. [cite: 26]",
+      "description": "→ Conducted market research and defined new features.\n→ Designed a tool to automate the creation and communication of diplomas to attendees.\n→ Provided customer support while gathering and prioritizing user feedback.\n→ Facilitated in-house workshops aimed at maximizing tool utilization.\n→ Designed a mobile app for event searches.\n→ Redesigned the landing page, resulting in a 30% increase in contacts.",
       "attachments": [],
       "type": "workExperience",
       "title": "Product Designer",
-      "company": "SYMPOSIUM Events",
+      "company": "SIMPOSIUM Events",
+      "location": null
+    },
+    {
+      "id": "h3YvcMcnVS2B6l2ML0UP",
+      "year": "2017 — 2017",
+      "heading": "Product Designer at Travelest App (discontinued)",
+      "url": null,
+      "collaborators": [],
+      "description": "→ Created prototypes and conducted user tests.\n→ Documented design thinking, findings, and proposals to communicate design decisions to clients.\n→ Developed user requirements, wireframes, high-fidelity designs, and design specifications for the development team.",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Product Designer",
+      "company": "Travelest App (discontinued)",
       "location": null
     },
     {
@@ -140,7 +153,7 @@
       "heading": "Designer and Developer at Universidad Miguel Hernández de Elche",
       "url": null,
       "collaborators": [],
-      "description": "→ Validated design hypotheses through iterative prototyping and execution of user tests to ensure usability before the development phase. [cite: 29][cite_start]\n→ Front-end development and technical implementation (HTML, CSS, JS, ASP.net) of an ecosystem of 40 Landing Pages and forms, guaranteeing visual consistency and functionality in production. [cite: 30, 31][cite_start]\n→ Led platform migration (native code to WordPress) ensuring business operational continuity. [cite: 32][cite_start]\n→ Created technical documentation and user guides to facilitate onboarding and autonomy for new team members. [cite: 33]",
+      "description": "→ Created prototypes and conducted user tests to validate design proposals.\n→ Developed 40 landing pages and their contact forms using HTML, CSS, JS, and ASP.NET.\n→ Led the migration from HTML, CSS, and JS to WordPress, minimizing disruptions to daily operations and documenting the new platform for interns.",
       "attachments": [],
       "type": "workExperience",
       "title": "Designer and Developer",
@@ -151,56 +164,30 @@
   "volunteering": [],
   "education": [
     {
-      "id": "YHmkQAVqWtNX5DYmUqsW",
-      "year": "2024 — 2024",
-      "heading": "UI Engineering 101 for Designers at Maven",
-      "url": "https://maven.com/",
-      "collaborators": [],
-      "description": null,
-      "attachments": [],
-      "type": "education",
-      "degree": "UI Engineering 101 for Designers",
-      "school": "Maven",
-      "location": null
-    },
-    {
-      "id": "ZHmkQAVqWtNX5DYmUqsW",
-      "year": "2023 — 2023",
-      "heading": "Shift Nudge Interface Design Course",
-      "url": "https://shiftnudge.com/",
-      "collaborators": [],
-      "description": null,
-      "attachments": [],
-      "type": "education",
-      "degree": "Interface Design Course",
-      "school": "Shift Nudge",
-      "location": null
-    },
-    {
       "id": "XHmkQAVqWtNX5DYmUqsW",
       "year": "2022 — 2022",
-      "heading": "Design Systems at Instituto Tramontana",
+      "heading": "Design Systems at Tramontana Institute",
       "url": null,
       "collaborators": [],
       "description": null,
       "attachments": [],
       "type": "education",
       "degree": "Design Systems",
-      "school": "Instituto Tramontana",
-      "location": "Madrid"
+      "school": "Tramontana Institute",
+      "location": null
     },
     {
       "id": "dVnkMUTCCmBk9uiVUmai",
       "year": "2022 — 2022",
-      "heading": "Design and Data Visualizacion at Instituto Tramontana",
+      "heading": "Design and Data Visualizacion at Tramontana Institute",
       "url": null,
       "collaborators": [],
       "description": null,
       "attachments": [],
       "type": "education",
       "degree": "Design and Data Visualizacion",
-      "school": "Instituto Tramontana",
-      "location": "Madrid"
+      "school": "Tramontana Institute",
+      "location": null
     },
     {
       "id": "mnu5qpMRdnWns5YFAybo",
@@ -218,14 +205,14 @@
     {
       "id": "BnmlOJ9mTpzXWnWQuXqy",
       "year": "2015 — 2015",
-      "heading": "V Interaction Design Professional Program at Instituto Tramontana",
+      "heading": "V Interaction Design Professional Program at Tramontana Institute",
       "url": null,
       "collaborators": [],
       "description": null,
       "attachments": [],
       "type": "education",
       "degree": "V Interaction Design Professional Program",
-      "school": "Instituto Tramontana (formerly Vostok Studio)",
+      "school": "Tramontana Institute",
       "location": "Madrid"
     },
     {
@@ -254,7 +241,7 @@
       "id": "7q5VOID8fgTRUyfEr3ig",
       "platform": "LinkedIn",
       "handle": "alejandrocamaralopez",
-      "url": "https://linkedin.com/in/alejandrocamaralopez/"
+      "url": "https://linkedin.com/in/alejandrocamaralopez"
     }
   ],
   "allCollections": [
@@ -271,7 +258,7 @@
           "id": "7q5VOID8fgTRUyfEr3ig",
           "platform": "LinkedIn",
           "handle": "alejandrocamaralopez",
-          "url": "https://linkedin.com/in/alejandrocamaralopez/"
+          "url": "https://linkedin.com/in/alejandrocamaralopez"
         }
       ]
     },
@@ -284,7 +271,7 @@
           "heading": "Product Designer at European Union Intellectual Property Office",
           "url": null,
           "collaborators": [],
-          "description": "→ Executed user research across the 27 EU member states (interviews, surveys, card sorting) to optimize workflows based on qualitative data.\n→ Optimized usability in legacy tools through heuristic evaluations and iterative testing, increasing user efficiency.\n→ Comprehensive redesign of the leading intellectual property documentation management tool, modernizing the information architecture and UI.\n→ Designed and launched two new critical tools to reduce trademark registration time.\n→ Led prototyping and testing in an Agile environment with international stakeholders.\n→ Created and implemented a Design System in collaboration with engineering to scale development.\n→ Evangelized the benefits of the component library to the client to ensure product consistency.\n→ Integrated AI workflows (Figma Make, v0, Claude Code) to generate high-fidelity prototypes and bring visual proposals closer to final code, agilizing technical validation.",
+          "description": "→ Researched with users across the 27 EU member states using interviews, surveys, card sorting and user testing to gather insights of their workflows.\n→ Improved usability of existing tools by conducting heuristic evaluations and user testing.\n→ Designed two new tools to help users improve their time-to-register new trademarks, working with internal stakeholders, customers and business analyst. Created rapid prototypes and conducted user tests in an Agile environment.\n→ Communicated the advantages of a UI library to the client.\n→ Worked closely with engineers and other designers to document and create a UI library to simplify the translation of complex systems into tangible products.",
           "attachments": [],
           "type": "workExperience",
           "title": "Product Designer",
@@ -294,14 +281,27 @@
         {
           "id": "tQ7P3uM7Pf1PGS9eE9Zg",
           "year": "2015 — 2018",
-          "heading": "Product Designer at SYMPOSIUM Events",
+          "heading": "Product Designer at SIMPOSIUM Events",
           "url": null,
           "collaborators": [],
-          "description": "→ Defined product roadmap based on market research to identify opportunities and prioritize the development of new key features.\n→ Designed an automation system for generating and sending diplomas, optimizing communication flows with attendees and reducing manual workload.\n→ Managed the user feedback loop and technical support to validate needs and prioritize iterative product improvements.\n→ Facilitated training workshops with clients to ensure successful implementation (Onboarding) and maximize tool adoption rates.\n→ Designed a mobile experience (App) centered on usability to facilitate intuitive event discovery and search.\n→ Strategic redesign of the Landing Page oriented towards conversion (CRO), achieving a 30% increase in lead/contact acquisition.",
+          "description": "→ Researched market and defined new features.\n→ Designed the tool to automate the creation and communication of diplomas to attendees.\n→ Gave customer support and gathered and prioritise user feedback.\n→ Conducted in-house workshops to aimed at maximising the utilisation of the tool.\n→ Designed the mobile app to search for events.\n→ Re-designed the landing page that increased contacts in a 30%.",
           "attachments": [],
           "type": "workExperience",
           "title": "Product Designer",
-          "company": "SYMPOSIUM Events",
+          "company": "SIMPOSIUM Events",
+          "location": null
+        },
+        {
+          "id": "h3YvcMcnVS2B6l2ML0UP",
+          "year": "2017 — 2017",
+          "heading": "Product Designer at Travelest App (discontinued)",
+          "url": null,
+          "collaborators": [],
+          "description": "→ Created prototypes and conducted user tests.\n→ Documented design thinking, findings and proposals to communicate the design decisions to the client.\n→ Created user requirements, wireframes, high-fidelity designs and design specifications for the development team.",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Product Designer",
+          "company": "Travelest App (discontinued)",
           "location": null
         },
         {
@@ -310,7 +310,7 @@
           "heading": "Designer and Developer at Universidad Miguel Hernández de Elche",
           "url": null,
           "collaborators": [],
-          "description": "→ Validated design hypotheses through iterative prototyping and execution of user tests to ensure usability before the development phase.\n→ Front-end development and technical implementation (HTML, CSS, JS, ASP.net) of an ecosystem of 40 Landing Pages and forms, guaranteeing visual consistency and functionality in production.\n→ Led platform migration (native code to WordPress) ensuring business operational continuity.\n→ Created technical documentation and user guides to facilitate onboarding and autonomy for new team members.",
+          "description": "→ Created prototypes and conducted user tests to validate design proposals.\n→ Developed in HTML, CSS, JS and ASP.net the 40 landing pages and their contact forms.\n→ Led the migration from HTML, CSS, JS to Wordpress, minimising disruption of daily operations and documenting how to use the new platform for interns.",
           "attachments": [],
           "type": "workExperience",
           "title": "Designer and Developer",
@@ -328,7 +328,7 @@
           "heading": "InmoGolf Bonalba at InmoGolf Bonalba",
           "url": "https://inmogolfbonalba.com",
           "collaborators": [],
-          "description": "Full Stack design and development of a high-performance real estate platform based on Next.js and TailwindCSS. Implemented accessible component architecture (RadixUI) and integrated Sanity.io (Headless CMS) for scalable content management.",
+          "description": "Designed and developed a real estate website using Next.js, TailwindCSS for the front end, and Sanity.io as a headless CMS.",
           "attachments": [
             {
               "type": "image",
@@ -359,7 +359,7 @@
           "heading": "Interviewed With",
           "url": "https://interviewedwith.com",
           "collaborators": [],
-          "description": "End-to-end design and development of a responsive web platform based on React, facilitating the creation of a community for the exchange of job interview experiences.",
+          "description": "Collaborated with a colleague to design and develop a responsive website using React, enabling users to share their first-hand experiences of job interviews in an anonymous way.",
           "attachments": [
             {
               "type": "image",
@@ -399,12 +399,12 @@
           "id": "YHmkQAVqWtNX5DYmUqsW",
           "year": "2024 — 2024",
           "heading": "UI Engineering 101 for Designers at Maven",
-          "url": "https://maven.com/",
+          "url": null,
           "collaborators": [],
           "description": null,
           "attachments": [],
           "type": "education",
-          "degree": "UI Engineering 101 for Designers",
+          "degree": "UI Engineering",
           "school": "Maven",
           "location": null
         },
@@ -412,40 +412,40 @@
           "id": "ZHmkQAVqWtNX5DYmUqsW",
           "year": "2023 — 2023",
           "heading": "Shift Nudge Interface Design Course",
-          "url": "https://shiftnudge.com/",
+          "url": null,
           "collaborators": [],
           "description": null,
           "attachments": [],
           "type": "education",
-          "degree": "Interface Design Course",
+          "degree": "Interface Design",
           "school": "Shift Nudge",
           "location": null
         },
         {
           "id": "XHmkQAVqWtNX5DYmUqsW",
           "year": "2022 — 2022",
-          "heading": "Design Systems at Instituto Tramontana",
+          "heading": "Design Systems at Tramontana Institute",
           "url": null,
           "collaborators": [],
           "description": null,
           "attachments": [],
           "type": "education",
           "degree": "Design Systems",
-          "school": "Instituto Tramontana",
-          "location": "Madrid"
+          "school": "Tramontana Institute",
+          "location": null
         },
         {
           "id": "dVnkMUTCCmBk9uiVUmai",
           "year": "2022 — 2022",
-          "heading": "Design and Data Visualizacion at Instituto Tramontana",
+          "heading": "Design and Data Visualizacion at Tramontana Institute",
           "url": null,
           "collaborators": [],
           "description": null,
           "attachments": [],
           "type": "education",
           "degree": "Design and Data Visualizacion",
-          "school": "Instituto Tramontana",
-          "location": "Madrid"
+          "school": "Tramontana Institute",
+          "location": null
         },
         {
           "id": "mnu5qpMRdnWns5YFAybo",
@@ -463,14 +463,14 @@
         {
           "id": "BnmlOJ9mTpzXWnWQuXqy",
           "year": "2015 — 2015",
-          "heading": "V Interaction Design Professional Program at Instituto Tramontana",
+          "heading": "V Interaction Design Professional Program at Tramontana Institute",
           "url": null,
           "collaborators": [],
           "description": null,
           "attachments": [],
           "type": "education",
           "degree": "V Interaction Design Professional Program",
-          "school": "Instituto Tramontana (formerly Vostok Studio)",
+          "school": "Tramontana Institute",
           "location": "Madrid"
         },
         {

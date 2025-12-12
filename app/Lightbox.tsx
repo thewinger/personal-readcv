@@ -20,7 +20,7 @@ const Lightbox: React.FC<LightboxProps> = ({
 
   useEffect(() => {
     if (scrollRef.current && isMobile() && startingIndex > 0) {
-      let bounds = scrollRef.current.getBoundingClientRect();
+      const bounds = scrollRef.current.getBoundingClientRect();
       scrollRef.current.scrollLeft = bounds.width * startingIndex;
     }
     
@@ -76,9 +76,9 @@ const Lightbox: React.FC<LightboxProps> = ({
 
   const handleScroll = (event: React.UIEvent<HTMLElement>) => {
     if (!attachments) { return }
-    let view = event.currentTarget;
+    const view = event.currentTarget;
     setCurrentIndex(currentIndex => {
-      let index = Math.round((view.scrollLeft / (view.scrollWidth - view.offsetWidth)) * (attachments.length -1));
+      const index = Math.round((view.scrollLeft / (view.scrollWidth - view.offsetWidth)) * (attachments.length -1));
       return index
     });
   }
@@ -106,7 +106,35 @@ const Lightbox: React.FC<LightboxProps> = ({
         </div>
       </div>
       
-      {attachments && attachments.length > 1 ?
+      <AnimatePresence>
+        {attachments && attachments.length > 1 ?
+          <motion.div
+            initial={{ 
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+            }}
+            exit={{
+              opacity: 0,
+            }}
+            transition={{
+              type: 'spring',
+              stiffness: 700,
+              damping: 50,
+            }}
+            className={styles.dots}>
+            {attachments.map((media, index) => {
+              return (
+                <div
+                  className={styles.pagerDot}
+                  data-active={currentIndex === index}
+                  key={media.url + "dot"}/>
+              )
+            })}
+          </motion.div>
+        : null}
+
         <motion.div
           initial={{ 
             opacity: 0,
@@ -122,53 +150,27 @@ const Lightbox: React.FC<LightboxProps> = ({
             stiffness: 700,
             damping: 50,
           }}
-          className={styles.dots}>
-          {attachments.map((media, index) => {
-            return (
-              <div
-                className={styles.pagerDot}
-                data-active={currentIndex === index}
-                key={media.url + "dot"}/>
-            )
-          })}
-        </motion.div>
-      : null}
-
-      <motion.div
-        initial={{ 
-          opacity: 0,
-        }}
-        animate={{
-          opacity: 1,
-        }}
-        exit={{
-          opacity: 0,
-        }}
-        transition={{
-          type: 'spring',
-          stiffness: 700,
-          damping: 50,
-        }}
-        className={styles.backdrop}
-        onClick={() => close()}/>
-      <motion.button
-        initial={{ 
-          opacity: 0,
-        }}
-        animate={{
-          opacity: 1,
-        }}
-        exit={{
-          opacity: 0,
-        }}
-        whileTap={{ scale: 0.9 }}
-        transition={{
-          type: 'spring',
-          stiffness: 700,
-          damping: 50,
-        }}
-        className={styles.close}
-        onClick={() => close()}/>
+          className={styles.backdrop}
+          onClick={() => close()}/>
+        <motion.button
+          initial={{ 
+            opacity: 0,
+          }}
+          animate={{
+            opacity: 1,
+          }}
+          exit={{
+            opacity: 0,
+          }}
+          whileTap={{ scale: 0.9 }}
+          transition={{
+            type: 'spring',
+            stiffness: 700,
+            damping: 50,
+          }}
+          className={styles.close}
+          onClick={() => close()}/>
+      </AnimatePresence>
     </div>
   , document.body);
 }
@@ -189,7 +191,7 @@ const LightboxImage: React.FC<LightboxImageProps> = ({
   const [containerAspectRatio, setContainerAspectRatio] = useState((window.innerWidth - 48) / (window.innerHeight - 96));
   const imageAspectRatio = media.width / media.height;
   
-  let attachment = media.type === "image" ?
+  const attachment = media.type === "image" ?
     <img src={media.url}/> :
     <video
       src={media.url}
@@ -205,7 +207,7 @@ const LightboxImage: React.FC<LightboxImageProps> = ({
   
   const setRatio = () => {
     if (!containerRef.current) { return }
-    let bounds = containerRef.current.getBoundingClientRect();
+    const bounds = containerRef.current.getBoundingClientRect();
     setContainerAspectRatio(bounds.width / bounds.height);
   }
   

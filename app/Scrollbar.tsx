@@ -13,15 +13,14 @@ const Scrollbar: React.FC<ScrollbarProps> = ({
   inlineStyle,
 }) => {
   const [isScrollable, setIsScrollable] = useState(false);
-  const [renderCount, setRenderCount] = useState(0);
   const trackRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!scrollview.current) { return }
-    let view = scrollview.current;
-    const onScroll = (e: Event) => {
+    const view = scrollview.current;
+    const onScroll = () => {
       if (!scrollview.current) { return }
-      setRenderCount(count => count + 1)
+      // setRenderCount(count => count + 1)
     }
     onResize();
     view.addEventListener('scroll', onScroll);
@@ -29,13 +28,13 @@ const Scrollbar: React.FC<ScrollbarProps> = ({
   }, []);
 
   const onResize = () => {
-    let container = scrollview.current;
+    const container = scrollview.current;
     if (container && container.scrollWidth > container.offsetWidth) {
       setIsScrollable(true);
     } else {
       setIsScrollable(false);
     }
-    setRenderCount(count => count + 1)
+    // setRenderCount(count => count + 1)
   }
 
   useResizeObserver({ ref: scrollview as any, onResize });
