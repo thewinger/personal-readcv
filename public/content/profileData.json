@@ -396,6 +396,32 @@
       "name": "Education",
       "items": [
         {
+          "id": "YHmkQAVqWtNX5DYmUqsW",
+          "year": "2024 — 2024",
+          "heading": "UI Engineering 101 for Designers at Maven",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "UI Engineering",
+          "school": "Maven",
+          "location": null
+        },
+        {
+          "id": "ZHmkQAVqWtNX5DYmUqsW",
+          "year": "2023 — 2023",
+          "heading": "Shift Nudge Interface Design Course",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "Interface Design",
+          "school": "Shift Nudge",
+          "location": null
+        },
+        {
           "id": "XHmkQAVqWtNX5DYmUqsW",
           "year": "2022 — 2022",
           "heading": "Design Systems at Tramontana Institute",
