@@ -1,8 +1,8 @@
 .profile {
   width: 100%;
-  max-width: 620px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: clamp(24px, calc((100vw - 620px) / 2), 72px) 0;
+  padding: clamp(24px, calc((100vw - 720px) / 2), 72px) 0;
 }
 
 .profileHeader {
@@ -125,7 +125,6 @@
 }
 
 @media (max-width: 480px) {
-
   .about .description,
   .experiences,
   .contacts {
